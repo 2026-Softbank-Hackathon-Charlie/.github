@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 242" role="img" aria-labelledby="title desc">
+  <title id="title">HopCharlie 기술 스택</title>
+  <desc id="desc">콘솔과 플랫폼, 실행 환경과 저장소, 자동화와 AI, 로그와 메트릭에 사용한 기술입니다.</desc>
+  <rect width="1200" height="242" rx="18" fill="#f1f6f9"/>
+  <text x="32" y="52" fill="#173142" font-family="Arial, sans-serif" font-size="24" font-weight="700">HopCharlie 기술 스택</text>
+  <g transform="translate(32 76)" font-family="Arial, sans-serif">
+    <rect width="275" height="136" rx="12" fill="#ffffff" stroke="#d7e4eb"/>
+    <rect x="16" y="19" width="5" height="20" rx="2.5" fill="#086da2"/>
+    <text x="30" y="35" fill="#086da2" font-size="19" font-weight="700">콘솔 · 플랫폼</text>
+    <text x="16" y="64" fill="#173142" font-size="16">React · TypeScript · Vite</text>
+    <text x="16" y="87" fill="#173142" font-size="16">Go · PostgreSQL · SSE</text>
+    <text x="16" y="110" fill="#173142" font-size="16">CloudNativePG · rclone</text>
+  </g>
+  <g transform="translate(319 76)" font-family="Arial, sans-serif">
+    <rect width="275" height="136" rx="12" fill="#ffffff" stroke="#d7e4eb"/>
+    <rect x="16" y="19" width="5" height="20" rx="2.5" fill="#12684e"/>
+    <text x="30" y="35" fill="#12684e" font-size="19" font-weight="700">실행 환경 · 저장소</text>
+    <text x="16" y="64" fill="#173142" font-size="16">AWS EKS · GCP GKE · k3s</text>
+    <text x="16" y="87" fill="#173142" font-size="16">S3 · Cloud Storage · MinIO</text>
+    <text x="16" y="110" fill="#173142" font-size="16">Tailscale</text>
+  </g>
+  <g transform="translate(606 76)" font-family="Arial, sans-serif">
+    <rect width="275" height="136" rx="12" fill="#ffffff" stroke="#d7e4eb"/>
+    <rect x="16" y="19" width="5" height="20" rx="2.5" fill="#086da2"/>
+    <text x="30" y="35" fill="#086da2" font-size="19" font-weight="700">자동화 · AI</text>
+    <text x="16" y="64" fill="#173142" font-size="16">Terraform · Helm · Argo CD</text>
+    <text x="16" y="87" fill="#173142" font-size="16">GitHub Actions · CodeBuild</text>
+    <text x="16" y="110" fill="#173142" font-size="16">hopai · 격리 리허설</text>
+  </g>
+  <g transform="translate(893 76)" font-family="Arial, sans-serif">
+    <rect width="275" height="136" rx="12" fill="#ffffff" stroke="#d7e4eb"/>
+    <rect x="16" y="19" width="5" height="20" rx="2.5" fill="#12684e"/>
+    <text x="30" y="35" fill="#12684e" font-size="19" font-weight="700">로그 · 메트릭</text>
+    <text x="16" y="64" fill="#173142" font-size="16">OpenTelemetry · Alloy</text>
+    <text x="16" y="87" fill="#173142" font-size="16">ClickStack · HyperDX</text>
+    <text x="16" y="110" fill="#173142" font-size="16">Prometheus · Alertmanager</text>
+  </g>
+</svg>
