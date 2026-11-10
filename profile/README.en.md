@@ -122,7 +122,7 @@ The gateway selects a single environment as the write target. WAL flows from the
 
 **Team Charlie · 5 members**
 
-**Main** marks areas where a team member owned core implementation, ideation, or design. **Assist** marks areas where they helped implement, integrate, or verify the work.
+**RnR** lists each team member's primary responsibilities.
 
 <table>
   <thead>
@@ -137,20 +137,12 @@ The gateway selects a single environment as the write target. WAL flows from the
   </thead>
   <tbody>
     <tr>
-      <th scope="row">Main</th>
-      <td align="center">Backend · Frontend<br>CLI · Sample App<br>CI/CD</td>
-      <td align="center">Infra · GPU<br>Security · CI/CD</td>
-      <td align="center">Infra<br>Observability</td>
-      <td align="center">Migration Engine<br>Backend</td>
-      <td align="center">AI Sandbox<br>Frontend</td>
-    </tr>
-    <tr>
-      <th scope="row">Assist</th>
-      <td align="center">Infra<br>AI Sandbox</td>
-      <td align="center">Frontend · Backend<br>AI Sandbox<br>Migration Engine</td>
-      <td align="center">Migration Engine</td>
-      <td align="center">Frontend · Infra<br>AI Sandbox</td>
-      <td align="center">Migration Engine</td>
+      <th scope="row">RnR</th>
+      <td align="center">Platform · CLI<br>Console · CI/CD<br>Sample App</td>
+      <td align="center">Infrastructure · GPU<br>Security · CI/CD</td>
+      <td align="center">CNPG · Observability</td>
+      <td align="center">Migration · DB<br>Map · AI Recommendations</td>
+      <td align="center">AI Sandbox<br>Console</td>
     </tr>
     <tr>
       <th scope="row">Profile</th>
@@ -171,7 +163,18 @@ The gateway selects a single environment as the write target. WAL flows from the
   </tbody>
 </table>
 
-[Platform contributions](https://github.com/2026-Softbank-Hackathon-Charlie/platform/graphs/contributors) · [Infrastructure contributions](https://github.com/2026-Softbank-Hackathon-Charlie/infra/graphs/contributors)
+<details>
+<summary>View detailed team roles</summary>
+
+| Team member | Main | Assist |
+|---|---|---|
+| 조서현 | Platform API and traffic gateway, app deployment and Compose onboarding, CLI, console integration with the live API, sample app development, and automated publishing of platform and console images. | AI Sandbox, migration engine integration, and infrastructure setup. |
+| 김동윤 | GKE and on-premises infrastructure, GPU inference cutover, design and implementation of security controls (access permissions, network isolation, and vulnerability scanning), security API and console, app image builds and publishing, and CI runner operations. | AWS EKS setup, migration map and recovery screens, migration engine safety verification, and AI Sandbox verification. |
+| 강종욱 | AWS workload database infrastructure (CNPG) and observability with ClickStack, AWS and GKE metrics, and Langfuse. | CNPG compatibility for migration environments and Terraform deployment automation. |
+| 박준석 | Migration engine, rollback and data verification, database and file migration across three environments, the frontend migration map, and evidence-based AI migration recommendations. | AI Sandbox, on-premises deployment verification, GPU inference quality verification, and observability integration. |
+| 이태훈 | AI migration planning, sandbox rehearsals using the actual migration engine, and migration and AI execution flows in the console. | Database access and environment configuration for migration, and integration with the app observability API. |
+
+</details>
 
 <a name="repositories"></a>
 
