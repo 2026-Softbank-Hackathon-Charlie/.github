@@ -8,6 +8,12 @@
 <p align="center">AWS·GCP·온프레미스 사이에서 DB와 파일을 동기화하고,<br>사람이 승인한 계획에 따라 트래픽을 전환하는 관리 플랫폼입니다.</p>
 
 <p align="center">
+  <strong>한국어</strong> ·
+  <a href="https://github.com/2026-Softbank-Hackathon-Charlie/.github/blob/main/profile/README.en.md" lang="en">English</a> ·
+  <a href="https://github.com/2026-Softbank-Hackathon-Charlie/.github/blob/main/profile/README.ja.md" lang="ja">日本語</a>
+</p>
+
+<p align="center">
   <a href="https://github.com/2026-Softbank-Hackathon-Charlie/frontend#readme">로컬 데모</a> ·
   <a href="https://github.com/2026-Softbank-Hackathon-Charlie/platform/blob/main/docs/e2e/2026-11-08/README.md">본선 검증 기록</a> ·
   <a href="#purpose">기획 의도</a> ·
@@ -140,7 +146,7 @@ AWS에는 **관리 EKS**와 **워크로드 EKS**가 따로 있습니다. 관리 
     </tr>
     <tr>
       <th scope="row">Assist</th>
-      <td align="center">Infra</td>
+      <td align="center">Infra<br>AI Sandbox</td>
       <td align="center">Frontend · Backend<br>AI Sandbox<br>Migration Engine</td>
       <td align="center">Migration Engine</td>
       <td align="center">Frontend · Infra<br>AI Sandbox</td>
