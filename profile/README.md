@@ -94,21 +94,76 @@ AWS에는 **관리 EKS**와 **워크로드 EKS**가 따로 있습니다. 관리 
 
 ## 기술 스택
 
-<img src="https://raw.githubusercontent.com/2026-Softbank-Hackathon-Charlie/.github/main/profile/assets/hopcharlie-technology-stack.svg" alt="콘솔·플랫폼, 실행 환경·저장소, 자동화·AI, 로그·메트릭 영역의 HopCharlie 기술 스택" width="100%">
+<img src="https://raw.githubusercontent.com/2026-Softbank-Hackathon-Charlie/.github/main/profile/assets/hopcharlie-technology-stack.svg" alt="HopCharlie 기술 스택. 클라우드·런타임, 개발, 데이터·이전, 배포·프로비저닝, AI·관측 도구를 아이콘으로 정리했습니다." width="100%">
+
+<details>
+<summary>기술 스택 텍스트로 보기</summary>
 
 | 영역 | 주요 기술 |
 |---|---|
-| **Frontend / Backend** | React, TypeScript, Vite / Go, PostgreSQL, SSE |
-| **실행 환경과 데이터** | AWS EKS, GCP GKE, k3s, CloudNativePG, S3, Cloud Storage, MinIO |
-| **배포와 네트워크** | Terraform, Helm, Argo CD, GitHub Actions, CodeBuild, ECR, Artifact Registry, Tailscale |
-| **이전과 AI** | PostgreSQL WAL, rclone, hopai, 격리 샌드박스 |
-| **관측과 테스트** | OpenTelemetry, Grafana Alloy, ClickStack, HyperDX, Prometheus, Alertmanager / Go 테스트, Vitest |
+| **클라우드·런타임** | Amazon EKS·EC2·S3, Google Kubernetes Engine (GKE)·Cloud Storage, K3s, Tailscale |
+| **개발** | Go, React, TypeScript, Vite, SSE |
+| **데이터·이전** | PostgreSQL WAL, CloudNativePG, rclone, MinIO |
+| **배포·프로비저닝** | GitHub Actions, Docker, Terraform, Helm, Argo CD, AWS CodeBuild, Amazon ECR, Artifact Registry |
+| **AI·샌드박스** | Claude, hopai, Kubernetes 격리 샌드박스 |
+| **관측·테스트** | OpenTelemetry, Grafana Alloy, ClickStack, HyperDX, Prometheus, Alertmanager, Langfuse, Go 테스트, Vitest |
+
+</details>
 
 <a name="team"></a>
 
 ## 팀 구성원
 
-**Team Charlie · SoftBank Hackathon 2026 본선**
+**Team Charlie · 5명**
+
+**Main**은 핵심 구현이나 아이디어·설계를 맡은 분야, **Assist**는 구현·연동·검증에 함께 기여한 분야입니다.
+
+<table>
+  <thead>
+    <tr>
+      <th scope="col">구분</th>
+      <th scope="col" align="center">조서현</th>
+      <th scope="col" align="center">김동윤</th>
+      <th scope="col" align="center">강종욱</th>
+      <th scope="col" align="center">박준석</th>
+      <th scope="col" align="center">이태훈</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Main</th>
+      <td align="center">Backend · Frontend<br>CLI · Sample App<br>CI/CD</td>
+      <td align="center">Infra · GPU<br>Security · CI/CD</td>
+      <td align="center">Infra<br>Observability</td>
+      <td align="center">Migration Engine<br>Backend</td>
+      <td align="center">AI Sandbox<br>Frontend</td>
+    </tr>
+    <tr>
+      <th scope="row">Assist</th>
+      <td align="center">Infra</td>
+      <td align="center">Frontend · Backend<br>AI Sandbox<br>Migration Engine</td>
+      <td align="center">Migration Engine</td>
+      <td align="center">Frontend · Infra<br>AI Sandbox</td>
+      <td align="center">Migration Engine</td>
+    </tr>
+    <tr>
+      <th scope="row">프로필</th>
+      <td align="center"><a href="https://github.com/csh1668"><img src="https://avatars.githubusercontent.com/u/18442452?v=4&amp;s=208" width="104" height="104" alt="조서현 GitHub 프로필 사진"></a></td>
+      <td align="center"><a href="https://github.com/BusanGukbap"><img src="https://avatars.githubusercontent.com/u/77170214?v=4&amp;s=208" width="104" height="104" alt="김동윤 GitHub 프로필 사진"></a></td>
+      <td align="center"><a href="https://github.com/timbergrizz"><img src="https://avatars.githubusercontent.com/u/50934118?v=4&amp;s=208" width="104" height="104" alt="강종욱 GitHub 프로필 사진"></a></td>
+      <td align="center"><a href="https://github.com/YBSeok"><img src="https://avatars.githubusercontent.com/u/112086285?v=4&amp;s=208" width="104" height="104" alt="박준석 GitHub 프로필 사진"></a></td>
+      <td align="center"><a href="https://github.com/totorosi"><img src="https://avatars.githubusercontent.com/u/101302642?v=4&amp;s=208" width="104" height="104" alt="이태훈 GitHub 프로필 사진"></a></td>
+    </tr>
+    <tr>
+      <th scope="row">GitHub</th>
+      <td align="center"><a href="https://github.com/csh1668">@csh1668</a></td>
+      <td align="center"><a href="https://github.com/BusanGukbap">@BusanGukbap</a></td>
+      <td align="center"><a href="https://github.com/timbergrizz">@timbergrizz</a></td>
+      <td align="center"><a href="https://github.com/YBSeok">@YBSeok</a></td>
+      <td align="center"><a href="https://github.com/totorosi">@totorosi</a></td>
+    </tr>
+  </tbody>
+</table>
 
 [플랫폼 기여 내역](https://github.com/2026-Softbank-Hackathon-Charlie/platform/graphs/contributors) · [인프라 기여 내역](https://github.com/2026-Softbank-Hackathon-Charlie/infra/graphs/contributors)
 
