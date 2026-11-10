@@ -122,7 +122,7 @@ AWS には**管理用 EKS** と **ワークロード用 EKS** がそれぞれあ
 
 **Team Charlie · 5名**
 
-**Main** は主要な実装、アイデアの提案、または設計を担当した分野です。**Assist** は実装・連携・検証に協力した分野です。
+**RnR** は各メンバーの主な役割です。
 
 <table>
   <thead>
@@ -137,20 +137,12 @@ AWS には**管理用 EKS** と **ワークロード用 EKS** がそれぞれあ
   </thead>
   <tbody>
     <tr>
-      <th scope="row">Main</th>
-      <td align="center">Backend · Frontend<br>CLI · Sample App<br>CI/CD</td>
-      <td align="center">Infra · GPU<br>Security · CI/CD</td>
-      <td align="center">Infra<br>Observability</td>
-      <td align="center">Migration Engine<br>Backend</td>
-      <td align="center">AI Sandbox<br>Frontend</td>
-    </tr>
-    <tr>
-      <th scope="row">Assist</th>
-      <td align="center">Infra<br>AI Sandbox</td>
-      <td align="center">Frontend · Backend<br>AI Sandbox<br>Migration Engine</td>
-      <td align="center">Migration Engine</td>
-      <td align="center">Frontend · Infra<br>AI Sandbox</td>
-      <td align="center">Migration Engine</td>
+      <th scope="row">RnR</th>
+      <td align="center">Platform · CLI<br>Console · CI/CD<br>Sample App</td>
+      <td align="center">Infrastructure · GPU<br>Security · CI/CD</td>
+      <td align="center">CNPG · Observability</td>
+      <td align="center">Migration · DB<br>Map · AI Recommendations</td>
+      <td align="center">AI Sandbox<br>Console</td>
     </tr>
     <tr>
       <th scope="row">プロフィール</th>
@@ -171,7 +163,18 @@ AWS には**管理用 EKS** と **ワークロード用 EKS** がそれぞれあ
   </tbody>
 </table>
 
-[プラットフォームへの貢献履歴](https://github.com/2026-Softbank-Hackathon-Charlie/platform/graphs/contributors) · [インフラへの貢献履歴](https://github.com/2026-Softbank-Hackathon-Charlie/infra/graphs/contributors)
+<details>
+<summary>팀원별 역할 자세히 보기</summary>
+
+| 팀원 | Main | Assist |
+|---|---|---|
+| 조서현 | 플랫폼 API·트래픽 게이트웨이, 앱 배포·Compose 온보딩·CLI, 운영 콘솔 실제 API 연동, 샘플 앱 개발, 플랫폼·콘솔 이미지 게시 자동화 | AI Sandbox, 이전 엔진 연동, 인프라 구성 |
+| 김동윤 | GKE·온프레 인프라, GPU 추론 전환, 보안 설계·구축(접근 권한, 네트워크 격리, 취약점 점검), 보안 API·콘솔, 앱 이미지 빌드·게시와 CI 러너 운영 | AWS EKS 구성, 이주 지도·복구 화면, 이전 엔진 안전성 검증, AI Sandbox 검증 |
+| 강종욱 | AWS 워크로드 DB 기반(CNPG), ClickStack·AWS/GKE 메트릭·Langfuse 관측 구축 | 이전 환경의 CNPG 호환성, Terraform 배포 자동화 |
+| 박준석 | 마이그레이션 엔진·롤백·데이터 검증, 3개 환경 DB·파일 이전, 프런트엔드 이주 지도, 근거 기반 AI 이전 추천 | AI Sandbox, 온프레 배포 검증, GPU 추론 품질 검증, 관측 연동 |
+| 이태훈 | AI 이전 계획·실제 엔진 샌드박스 리허설, 운영 콘솔의 이전·AI 실행 흐름 | 이전 DB 접근 권한·환경 설정, 앱 관측 API 연동 |
+
+</details>
 
 <a name="repositories"></a>
 
